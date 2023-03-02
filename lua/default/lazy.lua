@@ -10,7 +10,7 @@ vim.g.maplocalleader = " "
 require("lazy").setup({
 	spec = {
 		{
-			"dzerok2020/DzeroK",
+			"dzerok2020/nvim-lazy",
 			import = "plugins",
 			config = function()
 				require("user.colorscheme")
