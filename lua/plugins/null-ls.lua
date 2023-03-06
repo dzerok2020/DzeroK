@@ -6,6 +6,7 @@ return {
       return {
         sources = {
           nls.builtins.formatting.prettierd,
+          nls.builtins.formatting.black,
           nls.builtins.diagnostics.eslint_d.with({
             diagnostics_format = "[eslint] #{m}\n(#{c})",
           }),
