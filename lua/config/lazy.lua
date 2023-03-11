@@ -11,12 +11,13 @@ require("lazy").setup({
 		-- add nvim-lazy and import its plugins
 		{ "dzerok2020/nvim-lazy", import = "nvim-lazy.plugins" },
 		-- import any extras modules here
-		{ import = "nvim-lazy.plugins.extras.lang.typescript" },
-		{ import = "nvim-lazy.plugins.extras.lang.json" },
-		{ import = "nvim-lazy.plugins.extras.ui.mini-animate" },
-		{ import = "nvim-lazy.plugins.extras.coding.copilot" },
-		{ import = "nvim-lazy.plugins.extras.formatting.prettier" },
-		{ import = "nvim-lazy.plugins.extras.linting.eslint" },
+		-- { import = "nvim-lazy.plugins.extras.lang.typescript" },
+		-- { import = "nvim-lazy.plugins.extras.lang.json" },
+		-- { import = "nvim-lazy.plugins.extras.ui.mini-animate" },
+		-- { import = "nvim-lazy.plugins.extras.coding.copilot" },
+		-- { import = "nvim-lazy.plugins.extras.formatting.prettier" },
+		-- { import = "nvim-lazy.plugins.extras.linting.eslint" },
+		-- { import = "nvim-lazy.plugins.extras.pommodoro.pommodoro-clock" },
 		-- import/override with your plugins
 		{ import = "plugins" },
 	},
