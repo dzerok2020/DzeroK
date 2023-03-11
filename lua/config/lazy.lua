@@ -17,7 +17,10 @@ require("lazy").setup({
 		-- { import = "nvim-lazy.plugins.extras.coding.copilot" },
 		-- { import = "nvim-lazy.plugins.extras.formatting.prettier" },
 		-- { import = "nvim-lazy.plugins.extras.linting.eslint" },
-		-- { import = "nvim-lazy.plugins.extras.pommodoro.pommodoro-clock" },
+		-- pomodoro option 1
+		-- { import = "nvim-lazy.plugins.extras.pommodoro.pomodoro-clock" },
+		-- pomodoro option 2
+		-- { import = "nvim-lazy.plugins.extras.pommodoro.pomodoro" },
 		-- import/override with your plugins
 		{ import = "plugins" },
 	},
