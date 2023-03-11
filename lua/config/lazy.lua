@@ -15,6 +15,8 @@ require("lazy").setup({
 		{ import = "nvim-lazy.plugins.extras.lang.json" },
 		{ import = "nvim-lazy.plugins.extras.ui.mini-animate" },
 		{ import = "nvim-lazy.plugins.extras.coding.copilot" },
+		{ import = "nvim-lazy.plugins.extras.formatting.prettier" },
+		{ import = "nvim-lazy.plugins.extras.coding.copilot" },
 		-- import/override with your plugins
 		{ import = "plugins" },
 	},
